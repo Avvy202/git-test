@@ -90,6 +90,9 @@ hr{
     cursor: pointer;
 }
 
+#clock {
+    color:white;
+}
 .times-btn{
     display: none;
 }

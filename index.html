@@ -11,14 +11,16 @@
 <!--very careful when linger to js files-->
 <script src="index.js" async defer></script>
 </head>
-<body>
+<body onload="realtimeClock()">
     <header>
     <div class="navigation-container">
         <div class="top-head">
             <div class="web-name">
                 <h2>MicroSpot</h2>
+                <div id="clock"></div>
             </div>
 
+            
             <div class="ham-btn">
                 <span>
                  <i class="fas fa-align-justify"></i>
@@ -47,6 +49,7 @@
     <section class = "banner">
         <div class="banner-main-content">
             <div class="current-news-head">
+
                 <a href="https://gitlab.com/custom_robots/spotmicroai" target="_blank"><h3>MicroSpot from Gitlab</h3>
                 <span>Gitlab instruction</span></a>
 
